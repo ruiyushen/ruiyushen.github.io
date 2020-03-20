@@ -5,9 +5,9 @@ header-img: img/post-bg-desk.jpg
 email: ruiyushen@gmail.com
 description: "郴江幸自绕郴山，为谁流下潇湘去？"
 keyword: "SRY, 沈芮宇, 芮宇的博客, ruiyushen, 沈芮宇, shenruiyu, RuiyuShen"
-url: "http://ruiyushen.github.io"          # your host, for absolute URL
+url: "http://ruiyushen.github.com"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/ruiyushen/ruiyushen.github.io" # you code repository
+github_repo: "https://github.com/ruiyushen/ruiyushen.github.com" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -60,7 +60,7 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 1e7553b726b73849ff30                           #生成的clientID
   clientSecret: 40593618e71a9ffee63caa2d6fe73678ee8d8774    #生成的clientSecret
-  repo: ruiyushen.github.io    #仓库名称
+  repo: ruiyushen.github.com    #仓库名称
   owner: ruiyushen    #github用户名
   admin: ruiyushen
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
