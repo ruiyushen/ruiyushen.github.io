@@ -1,0 +1,104 @@
+# Site settings
+title: RuiyuShen's Blog
+SEOTitle: 芮宇的博客 | RY Blog
+header-img: img/post-bg-desk.jpg
+email: ruiyushen@gmail.com
+description: "郴江幸自绕郴山，为谁流下潇湘去？"
+keyword: "SRY, 沈芮宇, 芮宇的博客, ruiyushen, 沈芮宇, shenruiyu, RuiyuShen"
+url: "http://ruiyushen.github.io"          # your host, for absolute URL
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/ruiyushen/ruiyushen.github.io" # you code repository
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "SRY nb!"
+sidebar-avatar: /img/avatar-m      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# SNS settings
+RSS: false
+# weibo_username:     沈芮宇
+zhihu_username:     Ray
+github_username:    ruiyushen
+facebook_username:  shenruiyu
+#twitter_username:   Ruiyu_Shen
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 1e7553b726b73849ff30                           #生成的clientID
+  clientSecret: 40593618e71a9ffee63caa2d6fe73678ee8d8774    #生成的clientSecret
+  repo: ruiyushen.github.io    #仓库名称
+  owner: ruiyushen    #github用户名
+  admin: ruiyushen
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: f993b1532ab643fabf4ff90606a2ac6a
+
+          
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "Instagram",
+        href: "https://www.instagram.com/ruiyushen"
+    },{
+        title: "Bilibili",
+        href: "https://space.bilibili.com/223258962"
+    },{
+        title: "Wikipedia",
+        href: "https://zh.wikipedia.org/wiki/User:RuiyuShen"
+    }
+]
