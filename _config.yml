@@ -58,8 +58,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 1e7553b726b73849ff30                           #生成的clientID
-  clientSecret: 40593618e71a9ffee63caa2d6fe73678ee8d8774    #生成的clientSecret
+  clientID: 8be59df92caee6c7d0f5                           #生成的clientID
+  clientSecret: 279a7708810337639460908838e8b3b776ec9b7b    #生成的clientSecret
   repo: ruiyushen.github.io    #仓库名称
   owner: ruiyushen    #github用户名
   admin: ruiyushen
