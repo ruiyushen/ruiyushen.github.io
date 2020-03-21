@@ -64,7 +64,6 @@ kramdown:
 
 
 var gitalk = new Gitalk({
-  enable: true    #是否开启Gitalk评论
   clientID: '1e7553b726b73849ff30'                           #生成的clientID
   clientSecret: '40593618e71a9ffee63caa2d6fe73678ee8d8774'    #生成的clientSecret
   repo: 'ruiyushen.github.io'    #仓库名称
